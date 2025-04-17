@@ -36,6 +36,28 @@
       border-radius: 5px;
       margin-top: 20px;
     }
+    form {
+      margin-top: 2em;
+      background-color: white;
+      padding: 1.5em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input {
+      width: 100%;
+      padding: 0.8em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #e91e63;
+      color: white;
+      padding: 1em 2em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
     footer {
       background-color: #333;
       color: white;
@@ -55,9 +77,20 @@
   <h2>Venez vivre l'expérience du Speed Dating à Dakar</h2>
   <p>
     Real Love organise des soirées de speed dating pour les adultes célibataires à la recherche de vraies rencontres.
-    Nos événements vous offrent une occasion unique de faire des rencontres réelles dans une ambiance conviviale.
+    Que vous ayez 20 ou 40 ans, nos événements vous offrent une occasion unique de faire des rencontres réelles dans une ambiance conviviale.
   </p>
-  <a href="#" class="cta-button">Participer à un événement</a>
+  <a href="#inscription" class="cta-button">Participer à un événement</a>
+</section>
+
+<section id="inscription">
+  <h2>Inscription à un événement</h2>
+  <p>Remplissez ce formulaire pour recevoir une invitation aux prochaines soirées.</p>
+  <form>
+    <input type="text" placeholder="Votre nom" required>
+    <input type="email" placeholder="Votre email" required>
+    <input type="number" placeholder="Votre âge" required>
+    <button type="submit">S'inscrire</button>
+  </form>
 </section>
 
 <footer>
@@ -66,6 +99,3 @@
 
 </body>
 </html>
- 
-
-
