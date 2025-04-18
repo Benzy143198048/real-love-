@@ -2,68 +2,58 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inscription – Soirée Real Love</title>
+  <title>Inscription</title>
   <style>
     body {
-      background: linear-gradient(to right, #ffe0e9, #fff0f5);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif;
       text-align: center;
-      padding: 40px 20px;
-      color: #333;
-    }
-
-    .header-logo {
-      max-width: 300px;
-      margin-bottom: 20px;
+      padding: 50px;
+      background-color: #f9f9f9;
     }
 
     h1 {
-      font-size: 32px;
-      color: #c2185b;
-      margin-bottom: 10px;
+      color: #333;
     }
 
-    p {
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-
-    iframe {
+    .btn {
+      background-color: #4CAF50; /* Vert */
+      color: white;
+      padding: 12px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 8px;
       border: none;
-      width: 100%;
-      max-width: 800px;
-      height: 2100px;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      cursor: pointer;
+      margin-top: 20px;
     }
 
-    .form-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .btn:hover {
+      background-color: #45a049;
     }
 
-    @media (max-width: 768px) {
-      iframe {
-        height: 2300px;
-      }
+    .retour {
+      display: block;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #555;
+    }
+
+    .retour:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <div class="form-container">
-    <img src="https://i.imgur.com/Uu6uM2W.png" alt="Real Love Logo" class="header-logo"> <!-- Bannière -->
-    <h1>Inscription à la soirée Real Love – Speed Dating</h1>
-    <p>Remplissez le formulaire ci-dessous pour réserver votre place 💘</p>
+  <h1>Inscription à Real Love</h1>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSsX4jZBukXmuLlL_jFP7QVDqXTfsD6TLSk3oj4FaGvXYxaA/viewform?embedded=true"
-      frameborder="0" marginheight="0" marginwidth="0">
-      Chargement…
-    </iframe>
-  </div>
+  <p>Merci de votre intérêt ! Cliquez ci-dessous pour accéder au formulaire :</p>
+
+  <a class="btn" href="https://forms.gle/3xSPbc3wA4bwJENS7" target="_blank">Remplir le formulaire</a>
+
+  <a class="retour" href="index.html">← Retour à l'accueil</a>
 
 </body>
 </html>
-
