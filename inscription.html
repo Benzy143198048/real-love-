@@ -7,30 +7,20 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 50px;
-      background-color: #f9f9f9;
+      padding: 20px;
+      background-color: #f0f0f0;
     }
 
     h1 {
       color: #333;
     }
 
-    .btn {
-      background-color: #4CAF50; /* Vert */
-      color: white;
-      padding: 12px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      border-radius: 8px;
+    iframe {
+      width: 100%;
+      max-width: 640px;
+      height: 1000px;
       border: none;
-      cursor: pointer;
       margin-top: 20px;
-    }
-
-    .btn:hover {
-      background-color: #45a049;
     }
 
     .retour {
@@ -48,10 +38,10 @@
 <body>
 
   <h1>Inscription à Real Love</h1>
+  <p>Remplissez le formulaire ci-dessous :</p>
 
-  <p>Merci de votre intérêt ! Cliquez ci-dessous pour accéder au formulaire :</p>
-
-  <a class="btn" href="https://forms.gle/3xSPbc3wA4bwJENS7" target="_blank">Remplir le formulaire</a>
+  <!-- Intégration du formulaire Google Forms -->
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScInrR8wS2q7saaOnidvw2KZ-7AbK4TzOHMGF4y1trT7xNv1w/viewform?embedded=true" loading="lazy">Chargement…</iframe>
 
   <a class="retour" href="index.html">← Retour à l'accueil</a>
 
